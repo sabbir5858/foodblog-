@@ -1,0 +1,141 @@
+body{
+     font-family: 'Josefin Sans';
+}
+.nav-link{
+    background-color: #d6883f;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 7px;
+    border: 1px solid rgb(244, 190, 190);
+}
+.navbar-brand{
+    color:rgb(231, 141, 141);
+    font-size: 26px;
+}
+.navbar-brand:hover{
+    color:rgb(231, 141, 141);
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+.cls0{
+    color: white;
+}
+.cls{
+    font-size: 20px;
+}
+
+.cls1 span:nth-child(1){
+    position: relative;
+    animation: animate 2s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(2){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(3){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(4){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 0.9s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(5){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.1s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(6){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.3s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(7){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(8){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.7s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(9){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 1.9s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(10){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 2.1s;
+    animation-fill-mode: backwards;
+}
+.cls1 span:nth-child(11){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 2.3s;
+    animation-fill-mode: backwards;
+}
+
+.cls1 span:nth-child(12){
+    position: relative;
+    animation: animate 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+}
+
+
+@keyframes animate {
+    0%{
+        bottom:-100px;
+    }
+    100%{
+        bottom: 0px;
+    }
+    
+}
+.btn-warning{
+    background-color: #d6883f;
+    color: white;
+}
+.img1{
+    height: 160px;
+    width: 100%;
+}
+.clsabout{
+    font-family: 'Cookie';
+    color:#d6883f
+}
+
+.clsabout1{
+    font-size: 15px;
+    color: #adadad;
+}
+
+.card-img-top{
+    height: 160px;
+}
+
+.card-img-top{
+   transform: scale(1);
+   transition: .3s ease-in-out;
+}
+.card-img-top:hover{
+   transform: scale(1.2);
+}
+.card1{
+    overflow: hidden;
+}
